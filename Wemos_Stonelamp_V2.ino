@@ -23,7 +23,7 @@ Bill of material:
 
 */
 const bool DEBUG = 1; //Set to 1 for print 
-#include <ESPEEPROM.h>
+#include <ESPEEPROM.h> //https://github.com/esp8266/Arduino/tree/master/libraries/EEPROM 9 from Ivan Grokhotkov. 
 int eeAddress = 1;
 struct MyObject {
   bool lamp_on;
